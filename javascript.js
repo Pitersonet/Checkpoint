@@ -22,7 +22,7 @@ function microondas(opcao, tempo){
             }else if(tempo > 30){
                 console.log("Kabuummmm!!!!!")
             }else{
-                console.log("Prato pronto, bom apetite")
+                console.log("Ok prato selecionado (Pipoca)-Prato pronto, bom apetite")
             }
             break;
             case 2: //Macarrao-8s
@@ -33,7 +33,7 @@ function microondas(opcao, tempo){
             }else if(tempo > 24){
                 console.log("Kabuummmm!!!!!")
             }else{
-                console.log("Prato pronto, bom apetite")
+                console.log("Ok prato selecionado (Macarrão)-Prato pronto, bom apetite")
             }
             break;
         case 3: //Carne-15s
@@ -44,7 +44,7 @@ function microondas(opcao, tempo){
             }else if(tempo > 45){
                 console.log("Kabuummmm!!!!!")
             }else{
-                console.log("Prato pronto, bom apetite")
+                console.log("Ok prato selecionado (Carne)-Prato pronto, bom apetite")
             }
             break;
         case 4: //Feijao-12s
@@ -55,7 +55,7 @@ function microondas(opcao, tempo){
             }else if(tempo > 36){
                 console.log("Kabuummmm!!!!!")
             }else{
-                console.log("Prato pronto, bom apetite")
+                console.log("Ok prato selecionado (Feijão)-Prato pronto, bom apetite")
             }
             break;
         case 5: //Brigadeiro-8s
@@ -66,7 +66,7 @@ function microondas(opcao, tempo){
             }else if(tempo > 24){
                 console.log("Kabuummmm!!!!!")
             }else{
-                console.log("Prato pronto, bom apetite")
+                console.log("Ok prato selecionado (Brigadeiro)-Prato pronto, bom apetite")
             }
             break;
             default: //Nenhuma das opções
@@ -75,8 +75,8 @@ function microondas(opcao, tempo){
             }
             }
       
-        // teste pipoca 15s
-        microondas(2, 16)
+        // Teste de prato selecione a opção e o tempo.
+        microondas(3, 31)
 
 
 
